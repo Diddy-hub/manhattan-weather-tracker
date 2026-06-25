@@ -1,2 +1,2 @@
-# weather-tracker
+# yosemite-weather-tracker
 This project helps users plan optimal camping trips to Yosemite by predicting destination temperatures for their desired time of year. It was built as part of an Intro to Data Science class to assist outdoor enthusiasts in choosing safe dates for good weather. To provide these insights, the script utilizes the Open-Meteo API to fetch historical temperature records from the previous 5 years alongside current 7-day weather forecasts. You can customize the variables to work for othe durations and destinations as well. Just go into the weather.py and edit some variables.
