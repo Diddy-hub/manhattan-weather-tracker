@@ -1,6 +1,6 @@
 import requests
 import pandas as pd
-import plotly
+import plotly.graph_objects as go
 from datetime import date
 import os
 os.environ['MPLBACKEND'] = 'Agg'
