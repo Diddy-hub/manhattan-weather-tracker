@@ -6,9 +6,9 @@ import os
 os.environ['MPLBACKEND'] = 'Agg'
 
 # My camping location
-LATITUDE = 37.73922
-LONGITUDE = -119.64687
-LOCATION_NAME = "Yosemite"
+LATITUDE = 40.7127
+LONGITUDE = -74.0059
+LOCATION_NAME = "Manhattan"
 
 # Camping month and day range
 CAMP_MONTH = 7
@@ -22,7 +22,7 @@ def get_current_weather(lat, lon):
         "latitude": lat,
         "longitude": lon,
         "current": "temperature_2m",
-        "timezone": "America/Los_Angeles"
+        "timezone": "auto"
     }
     response = requests.get(url, params=params)
     return response.json()
